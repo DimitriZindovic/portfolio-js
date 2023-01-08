@@ -1,0 +1,85 @@
+.btn_blue {
+  background-color: blue;
+  border-radius: 50px;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+  height: fit-content;
+}
+
+.btn_blue:hover {
+  background-color: rgb(79, 79, 255);
+}
+
+.btn-black {
+  background-color: #333;
+  border: none;
+  padding: 20px 30px;
+  color: black;
+  cursor: pointer;
+  height: fit-content;
+  font-weight: 800;
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  text-decoration: none;
+  margin-bottom: 10%;
+  font-size: 75%;
+}
+
+@keyframes changing-color {
+  25% {
+    background-color: rgb(74, 74, 74);
+  }
+
+  50% {
+    background-color: rgb(149, 149, 149);
+  }
+
+  75% {
+    background-color: rgb(189, 189, 189);
+  }
+}
+
+.btn-black:hover {
+  background-color: white;
+  color: black;
+  border: 2px black solid;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  animation: changing-color 2.5s;
+}
+
+.btn-black a {
+  text-decoration: none;
+  color: white;
+}
+
+.btn-black a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.btn-blue-gradient {
+  background: linear-gradient(to right, #008aff, #86d472);
+  border-radius: 50px;
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+  height: fit-content;
+}
+
+.btn-blue-gradient:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.button-dark {
+  background-color: rgb(255, 255, 255);
+  border: none;
+  padding: 10px 20px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  height: fit-content;
+  font-weight: 800;
+  border-radius: 50px;
+  text-decoration: none;
+}

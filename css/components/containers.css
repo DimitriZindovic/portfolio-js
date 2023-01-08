@@ -1,0 +1,106 @@
+.main-container {
+  padding: 60px !important;
+  min-height: 100%;
+  position: relative;
+}
+
+.container-slider-perso {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 100px;
+}
+
+.main-container-center {
+  height: 100vh;
+  width: 100vh;
+}
+
+.container-full {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.container-card-perso {
+  width: 100%;
+  height: 100%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.container-image {
+  width: 50%;
+  position: sticky;
+  top: 0;
+  height: 100%;
+}
+
+.container-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.container-title {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+
+  .container-center {
+    height: 50vh;
+  }
+
+  .main-container-center {
+    height: 100vh;
+    width: 100vh;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+
+  .container-center {
+    height: 50vh;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+
+  .container-center {
+    height: 50vh;
+  }
+}
